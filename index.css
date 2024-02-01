@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+} 
+
+
+
+
+nav a {
+    text-decoration: none;
+    color: #ef1e1e;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    color: #ff00b7;
+}
+
+
+.work h3{
+color: #ff00b7;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+h1{
+color:red;
+}
