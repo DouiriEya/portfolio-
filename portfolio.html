@@ -3,97 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MYportfolio ED</title> 
+    <title>MYportfolio ED</title>
+    <link rel="stylesheet" href="style.css"> 
 
-    <style>
-body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        } 
-       
-    
-       
-       
-        nav a {
-            text-decoration: none;
-            color: #ef1e1e;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        section h3 {
-            color: #ff00b7;
-        }
-
-
-       .work h3{
-color: #ff00b7;
-        }
-        img {
-            max-width: 1000%;
-            height: auto;
-            border-radius: 60%;
-            margin-top: 20px;
-        }
-h1{
-    color:red;
-}
-
-
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
-<body> 
-    <header> 
-        <nav>
-<div style="display:flex; flex-direction: row; justify-content: space-between;">
-    <a href="home.html">Home</a>
-    <a href="#about">About</a>
-    <a href="#work">Work</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-</div>
-         <div><img src="" alt="c:\Users\eyaen\Desktop\portfolio\pdp.jpg" ></div>   
-        </nav>
-        <h1>DOUIRI EYA</h1> 
+<body>
+    <header>
+        <div class="navbar-container"> 
+            <nav class="navbar"> 
+                <a href="home.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <div class="profile-picture-container"> 
+            <img src="pdp.jpg" alt="Profile Picture"> 
+        </div>
+        <h1 style="color: rgb(229, 31, 170);">DOUIRI EYA</h1>
         <p>A Web Developer student at GO MY CODE</p>
-        <img src="pdp.jpg" alt="C:\Users\eyaen\Desktop\portfolio" style="height: 500px;width: 500px;align-items: center;">
-    </header> <nav></nav>
-    <section id="home"> </section> 
-    
-    <section class="work">
-        <h3 id="w" style="color: #ff00b7;">ABOUT ME</h3> 
-        <p> i am Eya Douiri an engineering student and a beginner  web developer.
-            throughout the years at university i have learnt and gained a lot when it comes to problem solving skills 
-        and critical thinking since maths and pysics were always there.</p>    </section>
+    </header>
 
-    <section id="work"> 
-        <h3> i have worked on an online  grocery shop where i have set anything the user might need making the online payement easier 
-            and safer using paycharm and python as a programming language</h3>
-    </section>
-    <section id="resume">
-        Enthusiastic and dedicated Computer Science Engineering student with a passion for web development.
-         A high achiever at university, possessing excellent problem-solving skills 
-         and the ability to thrive in high-pressure situations. 
-         Seeking opportunities to apply and enhance my skills in a dynamic and challenging environment.
-    </section> 
+    <section id="home">click on home above so it leads you to the actual home page</section>
 
-    <section id="contact"><h3>YOU CAN REACH ME THROUGH:</h3>
-    phone nymber = +216 52050985 
-    <footer>
-        <p>Engineering Student : Douiri Eya</p>
-        <p><a href="douirieya9@gmail.com">douirieya9@gmail.com</a></p>
-        <button >higher me</button>
-      </footer>
-      
+    <section id="about" class="section-about"> 
+        <h3 class="section-heading">ABOUT ME</h3> 
+        <p> I am Eya Douiri, an engineering student and a beginner web developer. Throughout the years at university, I have learned and gained a lot when it comes to problem-solving skills and critical thinking since math and physics were always there.</p>
     </section>
-   
+
+    <section id="work" class="section-work"> 
+        <h3 class="section-heading">MY WORK</h3> 
+        <p>I have worked on an online grocery shop where I have set up everything the user might need, making online payment easier and safer using Paycharm and Python as a programming language.</p>
+    </section>
+
+    <section id="resume" class="section-resume"> 
+        <h3 class="section-heading">MY RESUME</h3> 
+        <p>Enthusiastic and dedicated Computer Science Engineering student with a passion for web development. A high achiever at university, possessing excellent problem-solving skills and the ability to thrive in high-pressure situations. Seeking opportunities to apply and enhance my skills in a dynamic and challenging environment.</p>
+    </section>
+
+    <section id="contact" class="section-contact"> 
+        <h3 class="section-heading">CONTACT ME</h3> 
+        <p>You can reach me through:</p>
+        <p>Phone number: +216 52050985</p>
+        <footer>
+            <p>Engineering Student: Douiri Eya</p>
+            <p><a href="mailto:douirieya9@gmail.com">douirieya9@gmail.com</a></p> 
+            <a href="hired.html"><button>hire me </button></a>
+
+        </footer>
+    </section>
+
 </body>
 </html>
